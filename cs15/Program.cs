@@ -39,7 +39,7 @@
                     case 2:
                         performance.DisplayInfo();
                         performance.Dispose();
-                        Console.WriteLine($"The film '{performance.Name}' from '{performance.TheaterName}' is being dispose.\n");
+                        Console.WriteLine($"The performance '{performance.Name}' from '{performance.TheaterName}' is being dispose.\n");
                         break;
                     case 3:
                         film.DisplayInfo();
